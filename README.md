@@ -116,8 +116,7 @@ By applying the winsorizing technique, we effectively mitigated the impact of ou
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
 # 6. Model Selection and Evaluation:
-6.1.1 MSE
-
+6.1.1 MSE:
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
@@ -129,7 +128,7 @@ c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
-6.2.1 R2 score
+6.2.1 R2 score:
 
 ![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
