@@ -5,49 +5,80 @@
 1. Introduction
    
 2. Description of the dataset
+   
    2.1. Intial steps:
+
    2.2. Descriptive statistics
 
-3. Exploratory Data Analysis
+4. Exploratory Data Analysis
+
    3.1 Bar plot for visualization of top 10 Grade Category distribution
+
    3.2 Bar chart for distribution of gender in percentage
+
    3.3 Barplot for Top 10 divisions
+
    3.4 Distribution of Base salary
+
    3.5 Distribution of 2020 Longetivity pay
+
    3.6 Top 10 Departments based on average base salary
+
    3.7 Top 5 divisions based on 2020 overtime pay distribution
+
    3.8 Distribution of Base Salary based on Gender
+
    3.9 Heatmap of Top 10 Divisions vs Gender
    
-4. Data Cleaning
+6. Data Cleaning
+
    4.1 Outlier Detection and Treatment
+
        4.1.1 Z-score Method
+
        4.1.2 Winsorizing Technique
+
        4.1.3 Implementation
+
        4.1.4 Winsorizing explanation of code
 
-5. Data Splitting and Preprocessing
+8. Data Splitting and Preprocessing
 
-6. Model Selection and Evaluation
+9. Model Selection and Evaluation
+
    6.1 MSE
+
        6.1.1 MSE model performance
+
        6.1.2 MSE model accuracy evaluation
+
    6.2 R^2 score
+
        6.2.1 R^2 scores of all 3 models
+
        6.2.2 R^2 score evualation
+
    6.3 Precision, Recall and F1-score
+
        6.3.1 Precision explanation
+
        6.3.2 Recall explanation
+
        6.3.3 F1-score explanation
+
        6.3.4 F1, Precision and Recall score of Linear Regression
+
        6.3.5 F1, Precision and Recall score of Random Forest
+
        6.3.6 F1, Precision and Recall score of SVM
-   6.4 Confusion Matrix
+
+    6.4 Confusion Matrix
+
        6.4.1 Confusion Matrix of Random Forest and SVM
 
 7. Conclusion
 
-8. References
+18. References
    
    
       
