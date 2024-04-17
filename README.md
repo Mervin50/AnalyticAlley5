@@ -94,7 +94,7 @@ Overall, the kernel density plots offer a visual tool for comparing the distribu
 
 Overall, the heatmap provides a clear and concise overview of the gender distribution within the top divisions, offering insights into potential areas for further analysis or targeted HR interventions.
 
-# 4 Data Cleaning: 
+# 4. Data Cleaning: 
 
 4.1 Outlier Detection and Treatment:
 Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
