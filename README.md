@@ -123,7 +123,6 @@ We've explored the performance of three different models: Support Vector Machine
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
 6.1.2 Based on the MSE values:
-
 a) Linear Regression MSE: 94727842.27752575
 b) Random Forest Regressor MSE: 88475403.21661408
 c) Support Vector Regressor MSE: 699046712.7006655
@@ -140,8 +139,7 @@ Linear Regression R^2 Score: 0.8643
 Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
-6.2.2  
-For R^2 scores:
+6.2.2  For R^2 scores:
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
 Negative scores indicate that the model performs worse than a horizontal line.
@@ -149,8 +147,7 @@ Negative scores indicate that the model performs worse than a horizontal line.
 Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
-6.3
-Precision, Recall and F1-score:
+6.3 Precision, Recall and F1-score:
 
 6.3.1 Precision:
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
@@ -184,6 +181,7 @@ These metrics are commonly used in classification tasks to evaluate the performa
 The Random Forest Regression model shows the best performance with higher precision, recall, and F1-score compared to Linear Regression and SVR. The Support Vector Regression model (SVR) has notably lower precision, recall, and F1-score, indicating poorer performance compared to the other models. This may suggest that the SVR model is not well-suited for the given task or requires further optimization.
 
 6.4 Confusion Matrix: 
+
 A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known. It allows visualization of the performance of an algorithm by showing the number of correct and incorrect predictions in each class.
 
 Here's how a confusion matrix is typically structured for a binary classification problem:
