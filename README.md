@@ -33,7 +33,7 @@ On average, employees received around $924 in longevity pay for the year 2020.
 Similar to overtime pay, longevity pay also varies considerably, with a standard deviation of approximately $2,044.
 A large portion of employees (75th percentile) did not receive any longevity pay in 2020.
 
-# 2.3 Plots to summarize some statistics
+# 3 Plots to summarize some statistics
 
 
 ![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4eef41ce-98cb-47b8-911c-2dccbe2512e0)
@@ -80,7 +80,7 @@ Overall, the kernel density plots offer a visual tool for comparing the distribu
 
 Overall, the heatmap provides a clear and concise overview of the gender distribution within the top divisions, offering insights into potential areas for further analysis or targeted HR interventions.
 
-# 2.4 Data Cleaning: 
+# 4 Data Cleaning: 
 Outlier Detection and Treatment:
 Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
 
@@ -96,8 +96,14 @@ Outlier Detection: We calculated the Z-scores for each data point.
 D) Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
 By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
+# 5. Data Splitting and Preprocessing:
+In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
-# 6. Conclusion:
+# 6. Model Selection and Evaluation:
+We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
+
+
+# 7. Conclusion:
 In conclusion, our project successfully addressed the business problem of predicting base salaries across different departments. Through extensive exploratory data analysis (EDA) and model evaluation, we gained valuable insights into the distribution of salaries, departmental characteristics, and the performance of different classifiers.
 The classifiers, including Random Forest, Decision Tree, and Support Vector Machine, demonstrated varying levels of accuracy, with Random Forest exhibiting the highest predictive capability. Confusion matrices and actual vs. predicted comparisons provided a detailed understanding of the models' strengths and areas for improvement.
 The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
