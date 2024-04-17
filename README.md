@@ -46,13 +46,6 @@ The 'grade' column in the dataset represents the classifications assigned to emp
 
 The 'gender' column in the dataset indicates the distribution of employees based on their gender. In summary, the 'gender' distribution in the dataset suggests a higher representation of male employees compared to female employees. This information can be valuable for understanding the gender composition within the workforce and may be considered in various analyses or decision-making processes related to gender diversity and inclusion. Overall, gender distribution insights are valuable for organizations aiming to foster diversity and make data-driven decisions related to human resources and workforce management.
 
-![Top 15 department categories](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/076b3eb1-2857-4a50-9e7e-851134e154b7)
-
-The histogram depicts the distribution of base salaries among employees in the dataset. Insights from the histogram suggest that the dataset primarily consists of employees with salaries in the lower to mid-range, with a substantial concentration of around $50,000. 
-The distribution reveals a skewed pattern, indicating that a smaller proportion of employees receive higher salaries, with a peak of around $100,000. 
-This information can be valuable for understanding the salary distribution within the organization and may guide decision-making related to compensation and budget planning.
-
-
 ![Top 10 divisions](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0db5cdde-cd36-4795-875c-9a99aee17dc0)
 
 School Health Services has the highest count among the top 10 departments, indicating that it has a significant presence within the organization. 
@@ -67,11 +60,13 @@ The distribution reveals a skewed pattern, indicating that a smaller proportion 
 This information can be valuable for understanding the salary distribution within the organization and may guide decision-making related to compensation and budget planning.
 
 
-![Distribution of Overtime pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/fdc8e97a-2943-4a90-92ab-c8d200bceded)
-
 ![Distribution of longevity of pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0e1f5448-baab-4c81-9ea9-9188de526131)
 
+These insights suggest that the majority of employees did not receive or received very less longevity pay in 2020, with a smaller percentage receiving varying amounts, as indicated by the specified bins in the displot.
+
 ![Top 10 department of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0dbb6096-9760-4e37-a352-378b1b37f17b)
+
+
 
 ![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
 
