@@ -1,16 +1,16 @@
 # AnalyticAlley
 
-# 1. Introduction
+# 1. Introduction:
 This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy. The analysis takes the form of a single Google Colab notebook of filename given above. To view this file, download it from this repository. All images intended for inclusion in this README are located in the images subdirectory of this repository. I have tried to structure the Google Colab notebook and this README so that they have corresponding sections. However, I do not wish to merely repeat here what has been stated in the notebook. I will endeavour to have this README summarize the work of the notebook and, hopefully, complement the analyses done there.
 
-# 2. Description of the dataset
+# 2. Description of the dataset:
 Predictive analysis is a form of analytics that employs statistical and machine learning techniques to recognize patterns and forecast outcomes. By scrutinizing historical and current data, predictive data analysis identifies trends and behaviours, enabling proactive decision-making for the future. This proactive approach assists businesses in minimizing risks and seizing opportunities, ultimately enhancing the decision-making process. In the context of our dataset, which encompasses information about departmental attributes, employee demographics, and salary-related variables, our objective is to construct a model capable of predicting salaries across varius departments within an organization. This endeavour aims to streamline salary structures, pinpoint potential pay disparities, and contribute to effective budget planning. Additionally, machine learning models can provide valuable insights to the HR department regarding salary distribution and compensation fairness.
 
-# 2.1 Initial steps
+# 2.1 Initial steps:
 I often use sites such as Medium.com to see how other people have investigated data sets using Python. The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be etc. The head of the data set looks like:
 ![head of our dataset](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d8afebcf-29bb-4c87-a01e-abb075c2a22a)
 
-# 2.2 Descriptive statistics
+# 2.2 Descriptive statistics:
 Pandas describe() can provide a quick summary of the data set as outlined in the notebook. So it seems like a sensible command to run. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
 ![describe function](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/c551c3f9-b161-4251-9af4-4b16656075e7)
 
@@ -30,7 +30,7 @@ On average, employees received around $924 in longevity pay for the year 2020.
 Similar to overtime pay, longevity pay also varies considerably, with a standard deviation of approximately $2,044.
 A large portion of employees (75th percentile) did not receive any longevity pay in 2020.
 
-# 3 Plots to summarize some statistics
+# 3 Exploratory Data Analysis:
 
 A) Bar plot for visualization of top 10 Grade Category distribution
 
@@ -94,7 +94,8 @@ I) Heatmap of Top 10 Divisions vs Gender
 Overall, the heatmap provides a clear and concise overview of the gender distribution within the top divisions, offering insights into potential areas for further analysis or targeted HR interventions.
 
 # 4 Data Cleaning: 
-Outlier Detection and Treatment:
+
+4.1 Outlier Detection and Treatment:
 Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
 
 A) Z-score Method:
@@ -113,18 +114,19 @@ By applying the winsorizing technique, we effectively mitigated the impact of ou
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
 # 6. Model Selection and Evaluation:
+6.1.1 MSE
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
-Based on the MSE values:
+6.1.2 Based on the MSE values:
 a) Linear Regression MSE: 94727842.27752575
 b) Random Forest Regressor MSE: 88475403.21661408
 c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
-
+6.2.1 R2 score
 ![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
 We have also found R2 scores of all three models: 
@@ -133,7 +135,7 @@ Linear Regression R^2 Score: 0.8643
 Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
-For R^2 scores:
+6.2.2 For R^2 scores:
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
 Negative scores indicate that the model performs worse than a horizontal line.
@@ -141,38 +143,40 @@ Negative scores indicate that the model performs worse than a horizontal line.
 Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
-Precision:
+6.3 Precision, Recall and F1-score:
+
+6.3.1 Precision:
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
 Precision = TP / (TP + FP)
 TP (True Positives): The number of correctly predicted positive instances.
 FP (False Positives): The number of incorrectly predicted positive instances.
 Recall (also known as sensitivity or true positive rate):
 
-Recall: 
+6.3.2 Recall: 
 Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
 Recall = TP / (TP + FN)
 FN (False Negatives): The number of incorrectly predicted negative instances.
 
-F1-score:
+6.3.3 F1-score:
 F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
 F1-score = 2 * (Precision * Recall) / (Precision + Recall)
 These metrics are commonly used in classification tasks to evaluate the performance of a model. 
 
-F1, Precision and Recall score of Linear Regression: 
+6.3.4 F1, Precision and Recall score of Linear Regression: 
 
 ![LR1](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d3cf1991-aae6-48d5-a989-76df2a2ff446)
 
-F1, Precision and Recall score of Random Forest:
+6.3.5 F1, Precision and Recall score of Random Forest:
 
 ![F1 for RF](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1f6c3ce5-84bb-436f-9a4c-30c92c8d5197)
 
-F1, Precision and Recall score of SVM:
+6.3.6 F1, Precision and Recall score of SVM:
 
 ![F1 for SVM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dcbe0b97-8610-4ef4-b002-f29507c7185d)
 
 The Random Forest Regression model shows the best performance with higher precision, recall, and F1-score compared to Linear Regression and SVR. The Support Vector Regression model (SVR) has notably lower precision, recall, and F1-score, indicating poorer performance compared to the other models. This may suggest that the SVR model is not well-suited for the given task or requires further optimization.
 
-Confusion Matrix: 
+6.4 Confusion Matrix: 
 A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known. It allows visualization of the performance of an algorithm by showing the number of correct and incorrect predictions in each class.
 
 Here's how a confusion matrix is typically structured for a binary classification problem:
