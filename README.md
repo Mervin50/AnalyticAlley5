@@ -165,6 +165,9 @@ A confusion matrix is a table that is often used to describe the performance of 
 Here's how a confusion matrix is typically structured for a binary classification problem:
 
 
+![confusion matrix](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/8a952897-82ee-4722-81f6-0a8269c646fe)
+
+
 
 # 7. Conclusion:
 In conclusion, our project successfully addressed the business problem of predicting base salaries across different departments. Through extensive exploratory data analysis (EDA) and model evaluation, we gained valuable insights into the distribution of salaries, departmental characteristics, and the performance of different classifiers.
