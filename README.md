@@ -1,5 +1,50 @@
 # AnalyticAlley
 
+# Table of contents
+
+1. Introduction
+2. Description of the dataset
+   2.1. Intial steps:
+   2.2. Descriptive statistics
+3. Exploratory Data Analysis
+   3.1 Bar plot for visualization of top 10 Grade Category distribution
+   3.2 Bar chart for distribution of gender in percentage
+   3.3 Barplot for Top 10 divisions
+   3.4 Distribution of Base salary
+   3.5 Distribution of 2020 Longetivity pay
+   3.6 Top 10 Departments based on average base salary
+   3.7 Top 5 divisions based on 2020 overtime pay distribution
+   3.8 Distribution of Base Salary based on Gender
+   3.9 Heatmap of Top 10 Divisions vs Gender
+4. Data Cleaning
+   4.1 Outlier Detection and Treatment
+       4.1.1 Z-score Method
+       4.1.2 Winsorizing Technique
+       4.1.3 Implementation
+       4.1.4 Winsorizing explanation of code
+5. Data Splitting and Preprocessing
+6. Model Selection and Evaluation
+   6.1 MSE
+       6.1.1 MSE model performance
+       6.1.2 MSE model accuracy evaluation
+   6.2 R^2 score
+       6.2.1 R^2 scores of all 3 models
+       6.2.2 R^2 score evualation
+   6.3 Precision, Recall and F1-score
+       6.3.1 Precision explanation
+       6.3.2 Recall explanation
+       6.3.3 F1-score explanation
+       6.3.4 F1, Precision and Recall score of Linear Regression
+       6.3.5 F1, Precision and Recall score of Random Forest
+       6.3.6 F1, Precision and Recall score of SVM
+   6.4 Confusion Matrix
+       6.4.1 Confusion Matrix of Random Forest and SVM
+8. Conclusion
+9. References
+   
+   
+      
+          
 # 1. Introduction:
 This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy. The analysis takes the form of a single Google Colab notebook of filename given above. To view this file, download it from this repository. All images intended for inclusion in this README are located in the images subdirectory of this repository. I have tried to structure the Google Colab notebook and this README so that they have corresponding sections. However, I do not wish to merely repeat here what has been stated in the notebook. I will endeavour to have this README summarize the work of the notebook and, hopefully, complement the analyses done there.
 
@@ -99,16 +144,16 @@ Overall, the heatmap provides a clear and concise overview of the gender distrib
 4.1 Outlier Detection and Treatment:
 Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
 
-A) Z-score Method:
+4.1.1 Z-score Method:
 The Z-score method is a statistical technique used to identify outliers by measuring how many standard deviations an observation is from the mean. Observations with a Z-score greater than a specified threshold are flagged as outliers.
 
-B) Winsorizing Technique:
+4.1.2 Winsorizing Technique:
 To handle the identified outliers, we applied the winsorizing technique. Winsorizing involves capping extreme values by replacing them with less extreme values. Specifically, we set the lower cap at the 5th percentile and the upper cap at the 95th percentile of the data distribution.
 
-C) Implementation:
+4.1.3 Implementation:
 Outlier Detection: We calculated the Z-scores for each data point.
 
-D) Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
+4.1.4 Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
 By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
 # 5. Data Splitting and Preprocessing:
@@ -116,14 +161,16 @@ By applying the winsorizing technique, we effectively mitigated the impact of ou
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
 # 6. Model Selection and Evaluation:
-6.1.1 MSE:
+6.1 MSE:
+
+6.1.1 MSE model performance:
 
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
 
-6.1.2 Based on the MSE values:
+6.1.2 MSE model accuracy evaluation:
 
 a) Linear Regression MSE: 94727842.27752575
 
@@ -134,7 +181,9 @@ c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
-6.2.1 R2 score:
+6.2 R^2 score:
+
+6.2.1 R^2 scores for all three models:
 
 ![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
@@ -144,7 +193,7 @@ Linear Regression R^2 Score: 0.8643
 Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
-6.2.2  For R^2 scores:
+6.2.2  R^2 score evaluation:
 
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
@@ -214,7 +263,7 @@ The classifiers, including Random Forest, Decision Tree, and Support Vector Mach
 The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
 
 
-# 7. References:
+# 8. References:
 General:
 
 [1] Anaconda Distribution https://www.anaconda.com/
