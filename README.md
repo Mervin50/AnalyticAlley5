@@ -122,9 +122,11 @@ We've explored the performance of three different models: Support Vector Machine
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
 6.1.2 Based on the MSE values:
+
 a) Linear Regression MSE: 94727842.27752575
 b) Random Forest Regressor MSE: 88475403.21661408
 c) Support Vector Regressor MSE: 699046712.7006655
+
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
@@ -139,16 +141,19 @@ Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
 6.2.2  For R^2 scores:
+
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
 Negative scores indicate that the model performs worse than a horizontal line.
 
 Given these scores:
+
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
 6.3 Precision, Recall and F1-score:
 
 6.3.1 Precision:
+
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
 Precision = TP / (TP + FP)
 TP (True Positives): The number of correctly predicted positive instances.
@@ -156,11 +161,13 @@ FP (False Positives): The number of incorrectly predicted positive instances.
 Recall (also known as sensitivity or true positive rate):
 
 6.3.2 Recall: 
+
 Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
 Recall = TP / (TP + FN)
 FN (False Negatives): The number of incorrectly predicted negative instances.
 
 6.3.3 F1-score:
+
 F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
 F1-score = 2 * (Precision * Recall) / (Precision + Recall)
 These metrics are commonly used in classification tasks to evaluate the performance of a model. 
