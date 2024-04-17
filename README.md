@@ -14,7 +14,37 @@ I often use sites such as Medium.com to see how other people have investigated d
 ![head of our dataset](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d8afebcf-29bb-4c87-a01e-abb075c2a22a)
 
 # 2.2 Descriptive statistics
-Pandas describe() can provide a quick summary of the data set as outlined in the notebook.From this we come to know that average salary is $78,771. The minimum base salary is $11,147, while the maximum is $280,000.The distribution of base salaries appears to be right-skewed, as the mean is higher than the median (50th percentile).The average overtime pay for 2020 is around $5,182. Overtime pay varies widely, with a standard deviation of approximately $11,063. The maximum overtime pay received in 2020 is notably high at $141,998. On average, employees received around $924 in longevity pay for the year 2020. So it seems like a sensible command to run. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
+Pandas describe() can provide a quick summary of the data set as outlined in the notebook. So it seems like a sensible command to run. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
+![describe function](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/c551c3f9-b161-4251-9af4-4b16656075e7)
+
+From this summary we can say that:
+A) Base Salary:
+The average base salary is approximately $78,771.
+The minimum base salary is $11,147, while the maximum is $280,000.
+The distribution of base salaries appears to be right-skewed, as the mean is higher than the median (50th percentile).
+
+B) 2020 Overtime Pay:
+The average overtime pay for 2020 is around $5,182.
+Overtime pay varies widely, with a standard deviation of approximately $11,063.
+The maximum overtime pay received in 2020 is notably high at $141,998.
+
+C) 2020 Longevity Pay:
+On average, employees received around $924 in longevity pay for the year 2020.
+Similar to overtime pay, longevity pay also varies considerably, with a standard deviation of approximately $2,044.
+A large portion of employees (75th percentile) did not receive any longevity pay in 2020.
+
+# 2.3 Plots to summarize some statistics
+
+
+
+
+
+
+
+
+
+
+
 
 
 
