@@ -15,6 +15,7 @@ Pandas describe() can provide a quick summary of the data set as outlined in the
 ![describe function](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/c551c3f9-b161-4251-9af4-4b16656075e7)
 
 From this summary we can say that:
+
 A) Base Salary:
 The average base salary is approximately $78,771.
 The minimum base salary is $11,147, while the maximum is $280,000.
