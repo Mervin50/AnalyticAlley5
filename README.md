@@ -1,5 +1,6 @@
 ## Project Name : Salary Prediction and Analysis
 
+![salary image](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1679ab76-cd56-449a-b2e1-4bce434b304b)
 
 # Table of contents
 
