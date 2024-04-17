@@ -3,9 +3,11 @@
 # Table of contents
 
 1. Introduction
+   
 2. Description of the dataset
    2.1. Intial steps:
    2.2. Descriptive statistics
+
 3. Exploratory Data Analysis
    3.1 Bar plot for visualization of top 10 Grade Category distribution
    3.2 Bar chart for distribution of gender in percentage
@@ -16,13 +18,16 @@
    3.7 Top 5 divisions based on 2020 overtime pay distribution
    3.8 Distribution of Base Salary based on Gender
    3.9 Heatmap of Top 10 Divisions vs Gender
+   
 4. Data Cleaning
    4.1 Outlier Detection and Treatment
        4.1.1 Z-score Method
        4.1.2 Winsorizing Technique
        4.1.3 Implementation
        4.1.4 Winsorizing explanation of code
+
 5. Data Splitting and Preprocessing
+
 6. Model Selection and Evaluation
    6.1 MSE
        6.1.1 MSE model performance
@@ -39,8 +44,10 @@
        6.3.6 F1, Precision and Recall score of SVM
    6.4 Confusion Matrix
        6.4.1 Confusion Matrix of Random Forest and SVM
-8. Conclusion
-9. References
+
+7. Conclusion
+
+8. References
    
    
       
