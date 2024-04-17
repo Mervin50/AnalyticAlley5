@@ -36,6 +36,7 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 # 2.3 Plots to summarize some statistics
 
 
+![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4325adda-33ff-416c-a2d6-7ee3ae7d7eb2)
 
 
 
