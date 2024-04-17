@@ -36,7 +36,28 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 # 2.3 Plots to summarize some statistics
 
 
-![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4325adda-33ff-416c-a2d6-7ee3ae7d7eb2)
+![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4eef41ce-98cb-47b8-911c-2dccbe2512e0)
+
+![Distribution of gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/2505ec42-d4bd-417c-92b5-215eb2ee7244)
+
+![Top 15 department categories](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/076b3eb1-2857-4a50-9e7e-851134e154b7)
+
+![Top 10 divisions](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0db5cdde-cd36-4795-875c-9a99aee17dc0)
+
+![Distribution of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d4715573-f869-469d-81d0-f3c1a09fd571)
+
+![Distribution of Overtime pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/fdc8e97a-2943-4a90-92ab-c8d200bceded)
+
+![Distribution of longevity of pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0e1f5448-baab-4c81-9ea9-9188de526131)
+
+![Top 10 department of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0dbb6096-9760-4e37-a352-378b1b37f17b)
+
+![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
+
+![Distribution of Base Salary by Gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/7fbfbc96-daa4-4edd-b663-5b8061b69878)
+
+![Heatmap](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6b0aa1aa-c74c-4ade-9bec-2a0339ccc429)
+
 
 
 
