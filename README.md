@@ -111,6 +111,9 @@ c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
+
+![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
+
 We have also found R2 scores of all three models: 
 The R^2 scores indicate how well the regression models fit the data:
 Linear Regression R^2 Score: 0.8643
@@ -125,8 +128,13 @@ Negative scores indicate that the model performs worse than a horizontal line.
 Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
+F1, Precision and Recall score of Linear Regression: 
 
 
+F1, Precision and Recall score of Random Forest: 
+
+
+F1, Precision and Recall score of SVM:
 
 
 
