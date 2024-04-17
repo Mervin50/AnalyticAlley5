@@ -66,9 +66,11 @@ These insights suggest that the majority of employees did not receive or receive
 
 ![Top 10 department of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0dbb6096-9760-4e37-a352-378b1b37f17b)
 
-
+These insights highlight the variation in average base salaries across different departments, providing an overview of the salary distribution within the organization.
 
 ![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
+
+
 
 ![Distribution of Base Salary by Gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/7fbfbc96-daa4-4edd-b663-5b8061b69878)
 
