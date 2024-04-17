@@ -247,7 +247,19 @@ Exploratory data analysis:
 
 [14] Good description of quartiles on Seaborn plots https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
 
+Regression:
 
+[15] Ordinary Least Squares in statsmodels https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html
+
+[16] Generalized Linear Models in scikit-learn https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
+
+[17] How to run Linear regression in Python scikit-Learn https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
+
+[18] A beginner’s guide to Linear Regression in Python with Scikit-Learn https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f
+
+[19] Regression Analysis: How Do I Interpret R-squared and Assess the Goodness-of-Fit? https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit
+
+[20] Python and R Tips To Learn Data Science: Pearson and Spearman Correlation in Python https://cmdlinetips.com/2019/08/how-to-compute-pearson-and-spearman-correlation-in-python/
 
 
 
