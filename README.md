@@ -97,6 +97,10 @@ D) Winsorizing: Data points below the 5th percentile were adjusted to the value 
 By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
 
+# 6. Conclusion:
+In conclusion, our project successfully addressed the business problem of predicting base salaries across different departments. Through extensive exploratory data analysis (EDA) and model evaluation, we gained valuable insights into the distribution of salaries, departmental characteristics, and the performance of different classifiers.
+The classifiers, including Random Forest, Decision Tree, and Support Vector Machine, demonstrated varying levels of accuracy, with Random Forest exhibiting the highest predictive capability. Confusion matrices and actual vs. predicted comparisons provided a detailed understanding of the models' strengths and areas for improvement.
+The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
 
 
 
