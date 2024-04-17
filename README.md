@@ -80,8 +80,21 @@ Overall, the kernel density plots offer a visual tool for comparing the distribu
 
 Overall, the heatmap provides a clear and concise overview of the gender distribution within the top divisions, offering insights into potential areas for further analysis or targeted HR interventions.
 
+# 2.4 Data Cleaning: 
+Outlier Detection and Treatment:
+Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
 
+A) Z-score Method:
+The Z-score method is a statistical technique used to identify outliers by measuring how many standard deviations an observation is from the mean. Observations with a Z-score greater than a specified threshold are flagged as outliers.
 
+B) Winsorizing Technique:
+To handle the identified outliers, we applied the winsorizing technique. Winsorizing involves capping extreme values by replacing them with less extreme values. Specifically, we set the lower cap at the 5th percentile and the upper cap at the 95th percentile of the data distribution.
+
+C) Implementation:
+Outlier Detection: We calculated the Z-scores for each data point.
+
+D) Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
+By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
 
 
