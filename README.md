@@ -128,6 +128,23 @@ Negative scores indicate that the model performs worse than a horizontal line.
 Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
+Precision:
+Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
+Precision = TP / (TP + FP)
+TP (True Positives): The number of correctly predicted positive instances.
+FP (False Positives): The number of incorrectly predicted positive instances.
+Recall (also known as sensitivity or true positive rate):
+
+Recall: 
+Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
+Recall = TP / (TP + FN)
+FN (False Negatives): The number of incorrectly predicted negative instances.
+
+F1-score:
+F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
+F1-score = 2 * (Precision * Recall) / (Precision + Recall)
+These metrics are commonly used in classification tasks to evaluate the performance of a model. 
+
 F1, Precision and Recall score of Linear Regression: 
 
 ![LR1](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d3cf1991-aae6-48d5-a989-76df2a2ff446)
@@ -140,6 +157,12 @@ F1, Precision and Recall score of SVM:
 
 ![F1 for SVM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dcbe0b97-8610-4ef4-b002-f29507c7185d)
 
+The Random Forest Regression model shows the best performance with higher precision, recall, and F1-score compared to Linear Regression and SVR. The Support Vector Regression model (SVR) has notably lower precision, recall, and F1-score, indicating poorer performance compared to the other models. This may suggest that the SVR model is not well-suited for the given task or requires further optimization.
+
+Confusion Matrix: 
+A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known. It allows visualization of the performance of an algorithm by showing the number of correct and incorrect predictions in each class.
+
+Here's how a confusion matrix is typically structured for a binary classification problem:
 
 
 
