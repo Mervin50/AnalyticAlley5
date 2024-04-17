@@ -117,14 +117,18 @@ In this step, we split our dataset into features and the target variable. Our ta
 
 # 6. Model Selection and Evaluation:
 6.1.1 MSE:
+
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
+
 6.1.2 Based on the MSE values:
 
 a) Linear Regression MSE: 94727842.27752575
+
 b) Random Forest Regressor MSE: 88475403.21661408
+
 c) Support Vector Regressor MSE: 699046712.7006655
 
 We can make the following observations about the accuracy of the models:
