@@ -199,6 +199,13 @@ Here's how a confusion matrix is typically structured for a binary classificatio
 
 ![confusion matrix](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/8a952897-82ee-4722-81f6-0a8269c646fe)
 
+Confusion Matrix of Random Forest and SVM:
+
+![RF for CM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dd8fcf1b-7469-40a3-ac9d-8b983b4c0fab)
+
+![SVM CM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/9d755f3d-b450-4cfe-8f40-e0c8394fa24d)
+
+
 
 
 # 7. Conclusion:
