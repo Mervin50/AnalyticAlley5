@@ -112,15 +112,18 @@ D) Winsorizing: Data points below the 5th percentile were adjusted to the value 
 By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
 # 5. Data Splitting and Preprocessing:
+
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
 # 6. Model Selection and Evaluation:
 6.1.1 MSE
+
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
 6.1.2 Based on the MSE values:
+
 a) Linear Regression MSE: 94727842.27752575
 b) Random Forest Regressor MSE: 88475403.21661408
 c) Support Vector Regressor MSE: 699046712.7006655
@@ -128,6 +131,7 @@ We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
 6.2.1 R2 score
+
 ![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
 We have also found R2 scores of all three models: 
@@ -136,7 +140,8 @@ Linear Regression R^2 Score: 0.8643
 Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
-6.2.2 For R^2 scores:
+6.2.2  
+For R^2 scores:
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
 Negative scores indicate that the model performs worse than a horizontal line.
@@ -144,7 +149,8 @@ Negative scores indicate that the model performs worse than a horizontal line.
 Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
-6.3 Precision, Recall and F1-score:
+6.3
+Precision, Recall and F1-score:
 
 6.3.1 Precision:
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
