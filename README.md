@@ -33,6 +33,7 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 # 3 Plots to summarize some statistics
 
 A) Bar plot for visualization of top 10 Grade Category distribution
+
 ![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4eef41ce-98cb-47b8-911c-2dccbe2512e0)
 
 15: This grade occurs 1125 times and is the most frequently assigned grade in the dataset.        
@@ -40,11 +41,13 @@ A) Bar plot for visualization of top 10 Grade Category distribution
 The 'grade' column in the dataset represents the classifications assigned to employees based on their roles or positions within the organization. Each unique grade signifies a specific level of responsibility, skill requirements, or seniority.
 
 B) Bar Chart for distribution of gender in percentage
+
 ![Distribution of gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/2505ec42-d4bd-417c-92b5-215eb2ee7244)
 
 The 'gender' column in the dataset indicates the distribution of employees based on their gender. In summary, the 'gender' distribution in the dataset suggests a higher representation of male employees compared to female employees. This information can be valuable for understanding the gender composition within the workforce and may be considered in various analyses or decision-making processes related to gender diversity and inclusion. Overall, gender distribution insights are valuable for organizations aiming to foster diversity and make data-driven decisions related to human resources and workforce management.
 
 C) Barplot for Top 10 divisions
+
 ![Top 10 divisions](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0db5cdde-cd36-4795-875c-9a99aee17dc0)
 
 School Health Services has the highest count among the top 10 departments, indicating that it has a significant presence within the organization. 
@@ -53,6 +56,7 @@ Office of Eligibility and Support Services is also prominently featured, indicat
 Highway Services is another notable department, highlighting the organization's involvement in managing highways or road infrastructure.
 
 D) Distribution of Base Salary
+
 ![Distribution of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d4715573-f869-469d-81d0-f3c1a09fd571)
 
 The histogram depicts the distribution of base salaries among employees in the dataset. Insights from the histogram suggest that the dataset primarily consists of employees with salaries in the lower to mid-range, with a substantial concentration of around $50,000. 
@@ -60,26 +64,31 @@ The distribution reveals a skewed pattern, indicating that a smaller proportion 
 This information can be valuable for understanding the salary distribution within the organization and may guide decision-making related to compensation and budget planning.
 
 E) Distribution of 2020 Longevity Pay
+
 ![Distribution of longevity of pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0e1f5448-baab-4c81-9ea9-9188de526131)
 
 These insights suggest that the majority of employees did not receive or received very less longevity pay in 2020, with a smaller percentage receiving varying amounts, as indicated by the specified bins in the displot.
 
 F) Top 10 Departments based on Average Base Salary
+
 ![Top 10 department of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0dbb6096-9760-4e37-a352-378b1b37f17b)
 
 These insights highlight the variation in average base salaries across different departments, providing an overview of the salary distribution within the organization.
 
 G) Top 5 Divisions based on 2020 Overtime Pay Distribution
+
 ![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
 
 The box plot aids in understanding the distribution and characteristics of overtime pay within the top divisions, facilitating data-driven insights into workforce management and compensation patterns.
 
 H) Distribution of Base Salary based on Gender.
+
 ![Distribution of Base Salary by Gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/7fbfbc96-daa4-4edd-b663-5b8061b69878)
 
 Overall, the kernel density plots offer a visual tool for comparing the distribution of base salaries by gender, allowing for insights into potential patterns, discrepancies, or commonalities in salary structures.
 
 I) Heatmap of Top 10 Divisions vs Gender
+
 ![Heatmap](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6b0aa1aa-c74c-4ade-9bec-2a0339ccc429)
 
 Overall, the heatmap provides a clear and concise overview of the gender distribution within the top divisions, offering insights into potential areas for further analysis or targeted HR interventions.
