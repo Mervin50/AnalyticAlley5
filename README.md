@@ -129,12 +129,15 @@ Given these scores:
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
 F1, Precision and Recall score of Linear Regression: 
+
 ![F1 for LR](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1230a25c-171e-4595-9bbe-78cce8926f18)
 
-F1, Precision and Recall score of Random Forest: 
+F1, Precision and Recall score of Random Forest:
+
 ![F1 for RF](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1f6c3ce5-84bb-436f-9a4c-30c92c8d5197)
 
 F1, Precision and Recall score of SVM:
+
 ![F1 for SVM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dcbe0b97-8610-4ef4-b002-f29507c7185d)
 
 
