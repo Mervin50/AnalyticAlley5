@@ -130,7 +130,7 @@ Both Linear Regression and Random Forest Regression models have decent R^2 score
 
 F1, Precision and Recall score of Linear Regression: 
 
-![F1 for LR](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1230a25c-171e-4595-9bbe-78cce8926f18)
+![LR1](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d3cf1991-aae6-48d5-a989-76df2a2ff446)
 
 F1, Precision and Recall score of Random Forest:
 
