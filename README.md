@@ -1,10 +1,7 @@
 # AnalyticAlley
 
 # 1. Introduction
-This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy.
-The analysis takes the form of a single Google Colab notebook of filename given above. To view this file, download it from this repository.
-All images intended for inclusion in this README are located in the images subdirectory of this repository.
-I have tried to structure the Google Colab notebook and this README so that they have corresponding sections. However, I do not wish to merely repeat here what has been stated in the notebook. I will endeavour to have this README summarize the work of the notebook and, hopefully, complement the analyses done there.
+This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy. The analysis takes the form of a single Google Colab notebook of filename given above. To view this file, download it from this repository. All images intended for inclusion in this README are located in the images subdirectory of this repository. I have tried to structure the Google Colab notebook and this README so that they have corresponding sections. However, I do not wish to merely repeat here what has been stated in the notebook. I will endeavour to have this README summarize the work of the notebook and, hopefully, complement the analyses done there.
 
 # 2. Description of the dataset
 Predictive analysis is a form of analytics that employs statistical and machine learning techniques to recognize patterns and forecast outcomes. By scrutinizing historical and current data, predictive data analysis identifies trends and behaviours, enabling proactive decision-making for the future. This proactive approach assists businesses in minimizing risks and seizing opportunities, ultimately enhancing the decision-making process. In the context of our dataset, which encompasses information about departmental attributes, employee demographics, and salary-related variables, our objective is to construct a model capable of predicting salaries across varius departments within an organization. This endeavour aims to streamline salary structures, pinpoint potential pay disparities, and contribute to effective budget planning. Additionally, machine learning models can provide valuable insights to the HR department regarding salary distribution and compensation fairness.
@@ -35,7 +32,7 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 
 # 3 Plots to summarize some statistics
 
-
+A) 
 ![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4eef41ce-98cb-47b8-911c-2dccbe2512e0)
 
 15: This grade occurs 1125 times and is the most frequently assigned grade in the dataset.        
