@@ -103,7 +103,38 @@ The classifiers, including Random Forest, Decision Tree, and Support Vector Mach
 The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
 
 
+# 7. References:
+General:
 
+[1] Anaconda Distribution https://www.anaconda.com/
+
+[2] Python Software Foundation https://www.python.org/
+
+[3] seaborn: statistical data visualization https://seaborn.pydata.org/index.html#
+
+[4] matplotlib: Python plotting library https://matplotlib.org/
+
+[5] "Employee Compensation and Satisfaction Insights" Dataset from data.world [https://github.com/mwaskom/seaborn-data/blob/master/tips.csv](https://data.world/montgomery-county-of-maryland/1fc1fc94-d685-4c4f-9525-6e6079165315/workspace/file?filename=comma-separated-values-file-1.csv)
+
+[6] scikit-learn: Machine Learning in Python https://scikit-learn.org/stable/index.html
+
+[7] statsmodels: Statistics in Python https://www.statsmodels.org/stable/index.html
+
+[8] scipy.stats : Statistics with SciPy https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
+
+Exploratory data analysis:
+
+[9] Exploratory Statistical Data Analysis with a Real data set using Pandas https://towardsdatascience.com/exploratory-statistical-data-analysis-with-a-real-data set-using-pandas-208007798b92
+
+[10] How to investigate a data set with Python https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e
+
+[11] Data analysis with Python https://medium.com/@onpillow/01-investigate-tmdb-movie-data set-python-data-analysis-project-part-1-data-wrangling-3d2b55ea7714
+
+[12] Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. Wes McKinney. ISBN-13: 978-1491957660 ISBN-10: 1491957662
+
+[13] Pandas In 10 Minutes || Wes McKinney https://www.youtube.com/watch?v=1MGCD8SQp3k
+
+[14] Good description of quartiles on Seaborn plots https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
 
 
 
