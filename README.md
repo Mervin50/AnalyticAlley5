@@ -13,4 +13,3 @@ Predictive analysis is a form of analytics that employs statistical and machine 
 2.1 Initial steps
 
 I often use sites such as Medium.com to see how other people have investigated data sets using Python. The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be etc. The head of the data set looks like:
-![unnamed](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/de07e305-f49e-4a0e-baeb-16d89c841efe)
