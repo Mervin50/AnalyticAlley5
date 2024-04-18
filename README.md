@@ -95,7 +95,7 @@ Predictive analysis is a form of analytics that employs statistical and machine 
 I often use sites such as Medium.com to see how other people have investigated data sets using Python. The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be etc. The head of the data set looks like:
 ![head of our dataset](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d8afebcf-29bb-4c87-a01e-abb075c2a22a)
 
-# 2.2 Descriptive statistics:
+##### 2.2 Descriptive statistics:
 Pandas describe() can provide a quick summary of the data set as outlined in the notebook. So it seems like a sensible command to run. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
 ![describe function](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/c551c3f9-b161-4251-9af4-4b16656075e7)
 
@@ -118,7 +118,7 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 
 # 3. Exploratory Data Analysis:
 
-# 3.1 Bar plot for visualization of top 10 Grade Category distribution
+##### 3.1 Bar plot for visualization of top 10 Grade Category distribution
 
 ![top 10 grade](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/4eef41ce-98cb-47b8-911c-2dccbe2512e0)
 
@@ -126,13 +126,13 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 20: This grade appears 314 times in the dataset. 
 The 'grade' column in the dataset represents the classifications assigned to employees based on their roles or positions within the organization. Each unique grade signifies a specific level of responsibility, skill requirements, or seniority.
 
-# 3.2 Bar Chart for distribution of gender in percentage
+##### 3.2 Bar Chart for distribution of gender in percentage
 
 ![Distribution of gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/2505ec42-d4bd-417c-92b5-215eb2ee7244)
 
 The 'gender' column in the dataset indicates the distribution of employees based on their gender. In summary, the 'gender' distribution in the dataset suggests a higher representation of male employees compared to female employees. This information can be valuable for understanding the gender composition within the workforce and may be considered in various analyses or decision-making processes related to gender diversity and inclusion. Overall, gender distribution insights are valuable for organizations aiming to foster diversity and make data-driven decisions related to human resources and workforce management.
 
-# 3.3 Barplot for Top 10 divisions
+##### 3.3 Barplot for Top 10 divisions
 
 ![Top 10 divisions](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0db5cdde-cd36-4795-875c-9a99aee17dc0)
 
@@ -141,7 +141,7 @@ Transit Gaithersburg Ride On and Transit Silver Spring Ride On are transit-relat
 Office of Eligibility and Support Services is also prominently featured, indicating a focus on providing eligibility and support services, possibly related to social welfare or assistance programs.
 Highway Services is another notable department, highlighting the organization's involvement in managing highways or road infrastructure.
 
-# 3.4 Distribution of Base Salary
+##### 3.4 Distribution of Base Salary
 
 ![Distribution of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d4715573-f869-469d-81d0-f3c1a09fd571)
 
@@ -149,31 +149,31 @@ The histogram depicts the distribution of base salaries among employees in the d
 The distribution reveals a skewed pattern, indicating that a smaller proportion of employees receive higher salaries, with a peak of around $100,000. 
 This information can be valuable for understanding the salary distribution within the organization and may guide decision-making related to compensation and budget planning.
 
-# 3.5 Distribution of 2020 Longevity Pay
+##### 3.5 Distribution of 2020 Longevity Pay
 
 ![Distribution of longevity of pay](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0e1f5448-baab-4c81-9ea9-9188de526131)
 
 These insights suggest that the majority of employees did not receive or received very less longevity pay in 2020, with a smaller percentage receiving varying amounts, as indicated by the specified bins in the displot.
 
-# 3.6 Top 10 Departments based on Average Base Salary
+##### 3.6 Top 10 Departments based on Average Base Salary
 
 ![Top 10 department of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/0dbb6096-9760-4e37-a352-378b1b37f17b)
 
 These insights highlight the variation in average base salaries across different departments, providing an overview of the salary distribution within the organization.
 
-# 3.7 Top 5 Divisions based on 2020 Overtime Pay Distribution
+##### 3.7 Top 5 Divisions based on 2020 Overtime Pay Distribution
 
 ![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
 
 The box plot aids in understanding the distribution and characteristics of overtime pay within the top divisions, facilitating data-driven insights into workforce management and compensation patterns.
 
-# 3.8 Distribution of Base Salary based on Gender.
+##### 3.8 Distribution of Base Salary based on Gender.
 
 ![Distribution of Base Salary by Gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/7fbfbc96-daa4-4edd-b663-5b8061b69878)
 
 Overall, the kernel density plots offer a visual tool for comparing the distribution of base salaries by gender, allowing for insights into potential patterns, discrepancies, or commonalities in salary structures.
 
-# 3.9 Heatmap of Top 10 Divisions vs Gender
+##### 3.9 Heatmap of Top 10 Divisions vs Gender
 
 ![Heatmap](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6b0aa1aa-c74c-4ade-9bec-2a0339ccc429)
 
@@ -181,37 +181,37 @@ Overall, the heatmap provides a clear and concise overview of the gender distrib
 
 # 4. Data Cleaning: 
 
-# 4.1 Outlier Detection and Treatment:
+##### 4.1 Outlier Detection and Treatment:
 Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
 
-# 4.1.1 Z-score Method:
+##### 4.1.1 Z-score Method:
 The Z-score method is a statistical technique used to identify outliers by measuring how many standard deviations an observation is from the mean. Observations with a Z-score greater than a specified threshold are flagged as outliers.
 
-# 4.1.2 Winsorizing Technique:
+##### 4.1.2 Winsorizing Technique:
 To handle the identified outliers, we applied the winsorizing technique. Winsorizing involves capping extreme values by replacing them with less extreme values. Specifically, we set the lower cap at the 5th percentile and the upper cap at the 95th percentile of the data distribution.
 
-# 4.1.3 Implementation:
+##### 4.1.3 Implementation:
 Outlier Detection: We calculated the Z-scores for each data point.
 
-# 4.1.4 Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
+##### 4.1.4 Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
 By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
 
-# 5. Data Splitting and Preprocessing:
+##### 5. Data Splitting and Preprocessing:
 
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
 # 6. Model Selection and Evaluation:
 
-# 6.1 MSE:
+##### 6.1 MSE:
 
-# 6.1.1 MSE model performance:
+##### 6.1.1 MSE model performance:
 
 We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
 
 ![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
 
 
-# 6.1.2 MSE model accuracy evaluation:
+##### 6.1.2 MSE model accuracy evaluation:
 
 a) Linear Regression MSE: 94727842.27752575
 
@@ -222,9 +222,9 @@ c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
-# 6.2 R^2 score:
+##### 6.2 R^2 score:
 
-# 6.2.1 R^2 scores for all three models:
+##### 6.2.1 R^2 scores for all three models:
 
 ![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
@@ -234,7 +234,7 @@ Linear Regression R^2 Score: 0.8643
 Random Forest Regression R^2 Score: 0.8732
 Support Vector Regression (SVR) R^2 Score: -0.0015
 
-# 6.2.2  R^2 score evaluation:
+##### 6.2.2  R^2 score evaluation:
 
 A score of 1 indicates a perfect fit.
 A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
@@ -244,9 +244,9 @@ Given these scores:
 
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
-# 6.3 Precision, Recall and F1-score:
+##### 6.3 Precision, Recall and F1-score:
 
-# 6.3.1 Precision:
+##### 6.3.1 Precision:
 
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
 Precision = TP / (TP + FP)
@@ -254,27 +254,27 @@ TP (True Positives): The number of correctly predicted positive instances.
 FP (False Positives): The number of incorrectly predicted positive instances.
 Recall (also known as sensitivity or true positive rate):
 
-# 6.3.2 Recall: 
+##### 6.3.2 Recall: 
 
 Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
 Recall = TP / (TP + FN)
 FN (False Negatives): The number of incorrectly predicted negative instances.
 
-# 6.3.3 F1-score:
+##### 6.3.3 F1-score:
 
 F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
 F1-score = 2 * (Precision * Recall) / (Precision + Recall)
 These metrics are commonly used in classification tasks to evaluate the performance of a model. 
 
-# 6.3.4 F1, Precision and Recall score of Linear Regression: 
+##### 6.3.4 F1, Precision and Recall score of Linear Regression: 
 
 ![LR1](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d3cf1991-aae6-48d5-a989-76df2a2ff446)
 
-# 6.3.5 F1, Precision and Recall score of Random Forest:
+##### 6.3.5 F1, Precision and Recall score of Random Forest:
 
 ![F1 for RF](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1f6c3ce5-84bb-436f-9a4c-30c92c8d5197)
 
-# 6.3.6 F1, Precision and Recall score of SVM:
+##### 6.3.6 F1, Precision and Recall score of SVM:
 
 ![F1 for SVM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dcbe0b97-8610-4ef4-b002-f29507c7185d)
 
