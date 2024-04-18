@@ -202,7 +202,7 @@ In this step, we split our dataset into features and the target variable. Our ta
 
 # 6. Model Selection and Evaluation:
 
-##### 6.1 MSE:
+### 6.1 MSE:
 
 ##### 6.1.1 MSE model performance:
 
@@ -222,7 +222,7 @@ c) Support Vector Regressor MSE: 699046712.7006655
 We can make the following observations about the accuracy of the models:
 The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
 
-##### 6.2 R^2 score:
+### 6.2 R^2 score:
 
 ##### 6.2.1 R^2 scores for all three models:
 
@@ -244,7 +244,7 @@ Given these scores:
 
 Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
 
-##### 6.3 Precision, Recall and F1-score:
+### 6.3 Precision, Recall and F1-score:
 
 ##### 6.3.1 Precision:
 
