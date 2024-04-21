@@ -249,7 +249,9 @@ Both Linear Regression and Random Forest Regression models have decent R^2 score
 ##### 6.3.1 Precision:
 
 Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
+
 Precision = TP / (TP + FP)
+
 TP (True Positives): The number of correctly predicted positive instances.
 FP (False Positives): The number of incorrectly predicted positive instances.
 Recall (also known as sensitivity or true positive rate):
@@ -257,13 +259,17 @@ Recall (also known as sensitivity or true positive rate):
 ##### 6.3.2 Recall: 
 
 Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
+
 Recall = TP / (TP + FN)
 FN (False Negatives): The number of incorrectly predicted negative instances.
+
 
 ##### 6.3.3 F1-score:
 
 F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
+
 F1-score = 2 * (Precision * Recall) / (Precision + Recall)
+
 These metrics are commonly used in classification tasks to evaluate the performance of a model. 
 
 ##### 6.3.4 F1, Precision and Recall score of Linear Regression: 
