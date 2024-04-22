@@ -1,6 +1,0 @@
-# 1. Introduction:
-
-This README describes work done on the "Home Health Care Agencies" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, 
-statsmodels, and SciPy. The analysis takes the form of a single Google Colab notebook of filename given above. To view this file, download it from this repository. All images intended for inclusion in 
-this README are located in the images subdirectory of this repository. I have tried to structure the Google Colab notebook and this README so that they have corresponding sections. However, I do not wish 
-to merely repeat here what has been stated in the notebook. I will endeavour to have this README summarize the work of the notebook and, hopefully, complement the analyses done there.  
