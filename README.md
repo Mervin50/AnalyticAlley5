@@ -89,14 +89,14 @@
 This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy. We have addressed the regression challenge to uncover the factors impacting salaries, employing Support Vector Machine, Random Forest, and Linear Regression.
 
 # 2. Description of the dataset:
-In the context of our dataset, which encompasses information about departmental attributes, employee demographics, and salary-related variables, our objective is to construct a model capable of predicting salaries across varius departments within an organization. This endeavour aims to streamline salary structures, pinpoint potential pay disparities, and contribute to effective budget planning. Additionally, machine learning models can provide valuable insights to the HR department regarding salary distribution and compensation fairness.
+In the context of our dataset, which encompasses information about departmental attributes, employee demographics, and salary-related variables, our objective is to construct a model capable of predicting salaries across varius departments within an organization. This endeavour aims to streamline salary structures, pinpoint potential pay disparities, and contribute to effective budget planning.
 
 ##### 2.1 Initial steps:
-I often use sites such as Medium.com to see how other people have investigated data sets using Python. The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be etc. The head of the data set looks like:
+The very first step is always to check if the data needs cleaning by looking for duplicate rows, zero values or NaNs where they shouldn't be etc. The head of the data set looks like:
 ![head of our dataset](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d8afebcf-29bb-4c87-a01e-abb075c2a22a)
 
 ##### 2.2 Descriptive statistics:
-Pandas describe() can provide a quick summary of the data set as outlined in the notebook. So it seems like a sensible command to run. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
+Pandas describe() can provide a quick summary of the dataset as outlined in the notebook. The output of pandas describe() is shown below. Here, all columns of the DataFrame are included in the analysis.
 ![describe function](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/c551c3f9-b161-4251-9af4-4b16656075e7)
 
 From this summary we can say that:
@@ -300,9 +300,7 @@ The confusion matrix is specifically designed for classification tasks where we 
 
 
 # 7. Conclusion:
-In conclusion, our project successfully addressed the business problem of predicting base salaries across different departments. Through extensive exploratory data analysis (EDA) and model evaluation, we gained valuable insights into the distribution of salaries, departmental characteristics, and the performance of different classifiers.
-The classifiers, including Random Forest, Decision Tree, and Support Vector Machine, demonstrated varying levels of accuracy, with Random Forest exhibiting the highest predictive capability. Confusion matrices and actual vs. predicted comparisons provided a detailed understanding of the models' strengths and areas for improvement.
-The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
+The classifiers, including Random Forest, Decision Tree, and Support Vector Machine, demonstrated varying levels of accuracy, with Random Forest exhibiting the highest predictive capability. The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
 
 
 # 8. References:
