@@ -200,7 +200,7 @@ By applying the winsorizing technique, we effectively mitigated the impact of ou
 
 In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
 
-# 6. Model Selection and Evaluation:
+# 6. Model Selection and Evaluation (MSE): 
 
 ### 6.1 MSE:
 
