@@ -123,7 +123,9 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 ![Screenshot 2024-05-03 100650](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1d530789-0936-44a0-a2c5-483383c32d0a)
 
 A) Grade 15 is the most common, occurring 1125 times, followed by grade 20 with 314 occurrences.
+
 B) The 'grade' column categorizes employees by roles or positions, while 'gender' shows their distribution.
+
 C) Insights into gender distribution aid in workforce diversity strategies and organizational decision-making.
 
 ##### 3.2 Comprehensive Analysis of Compensation and Departmental Performance
@@ -131,8 +133,13 @@ C) Insights into gender distribution aid in workforce diversity strategies and o
 ![1p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/16e0076a-8115-4204-9a17-377a7f757683)
 ![2p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6c616111-cd8d-4256-bf92-c9d328a66b63)
 
-A) Over 5000 employees earn $100,000, with the fewest earning $250,000. Approximately 8000 employees do not receive overtime pay, while around 1000 receive $1000. B)For longevity pay, around 8000 employees receive nothing, 250 receive $2000, and another 250 receive $8000.
-C) Department 1 has an average salary of $140,000, while Department 10's average salary is approximately $120,000, suggesting differences in compensation across departments.
+A) Over 5000 employees earn $100,000, with the fewest earning $250,000. 
+
+B)Approximately 8000 employees do not receive overtime pay, while around 1000 receive $1000. 
+
+C)For longevity pay, around 8000 employees receive nothing, 250 receive $2000, and another 250 receive $8000.
+
+D) Department 1 has an average salary of $140,000, while Department 10's average salary is approximately $120,000, suggesting differences in compensation across departments.
 
 
 ##### 3.3 Distribution of Base Salary based on Gender.
