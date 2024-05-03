@@ -118,6 +118,7 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 
 # 3. Exploratory Data Analysis:
 
+##### 3.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
 
 ![1p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/16e0076a-8115-4204-9a17-377a7f757683)
 ![2p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6c616111-cd8d-4256-bf92-c9d328a66b63)
