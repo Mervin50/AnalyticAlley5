@@ -141,6 +141,9 @@ Transit Gaithersburg Ride On and Transit Silver Spring Ride On are transit-relat
 Office of Eligibility and Support Services is also prominently featured, indicating a focus on providing eligibility and support services, possibly related to social welfare or assistance programs.
 Highway Services is another notable department, highlighting the organization's involvement in managing highways or road infrastructure.
 
+
+![Screenshot 2024-05-03 100650](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/25798810-936d-483f-a0d8-31c4a55e3edd)
+
 ##### 3.4 Distribution of Base Salary
 
 ![Distribution of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d4715573-f869-469d-81d0-f3c1a09fd571)
