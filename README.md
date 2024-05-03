@@ -135,11 +135,12 @@ C) Insights into gender distribution aid in workforce diversity strategies and o
 
 A) Over 5000 employees earn $100,000, with the fewest earning $250,000. 
 
-B)Approximately 8000 employees do not receive overtime pay, while around 1000 receive $1000. 
+B) Approximately 8000 employees do not receive overtime pay, while around 1000 receive $1000. 
 
-C)For longevity pay, around 8000 employees receive nothing, 250 receive $2000, and another 250 receive $8000.
+C) For longevity pay, around 8000 employees receive nothing, 250 receive $2000, and another 250 receive $8000.
 
-D) Department 1 has an average salary of $140,000, while Department 10's average salary is approximately $120,000, suggesting differences in compensation across departments.
+D) Department 1 has an average salary of $140,000, while Department 10's average salary is approximately $120,000, suggesting differences in compensation across 
+   departments.
 
 
 ##### 3.3 Distribution of Base Salary based on Gender.
