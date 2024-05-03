@@ -120,27 +120,25 @@ A large portion of employees (75th percentile) did not receive any longevity pay
 
 ##### 3.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
 
-![1p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/16e0076a-8115-4204-9a17-377a7f757683)
-![2p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6c616111-cd8d-4256-bf92-c9d328a66b63)
+![Screenshot 2024-05-03 100650](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1d530789-0936-44a0-a2c5-483383c32d0a)
 
 Grade 15 is the most common, occurring 1125 times, followed by grade 20 with 314 occurrences.
 The 'grade' column categorizes employees by roles or positions, while 'gender' shows their distribution.
 Insights into gender distribution aid in workforce diversity strategies and organizational decision-making.
 
-##### 3.7 Top 5 Divisions based on 2020 Overtime Pay Distribution
+##### 3.2 Comprehensive Analysis of Compensation and Departmental Performance
 
-![2020 division of base salary](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6ed5f9c8-bc78-4049-a2e4-f8eae543e251)
+![1p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/16e0076a-8115-4204-9a17-377a7f757683)
+![2p](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6c616111-cd8d-4256-bf92-c9d328a66b63)
 
-The box plot aids in understanding the distribution and characteristics of overtime pay within the top divisions, facilitating data-driven insights into workforce management and compensation patterns.
 
-
-##### 3.8 Distribution of Base Salary based on Gender.
+##### 3.3 Distribution of Base Salary based on Gender.
 
 ![Distribution of Base Salary by Gender](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/7fbfbc96-daa4-4edd-b663-5b8061b69878)
 
 Overall, the kernel density plots offer a visual tool for comparing the distribution of base salaries by gender, allowing for insights into potential patterns, discrepancies, or commonalities in salary structures.
 
-##### 3.9 Heatmap of Top 10 Divisions vs Gender
+##### 3.4 Heatmap of Top 10 Divisions vs Gender
 
 ![Heatmap](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/6b0aa1aa-c74c-4ade-9bec-2a0339ccc429)
 
