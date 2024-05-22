@@ -7,80 +7,52 @@
 1. Introduction
    
 2. Description of the dataset
-   
+
    2.1. Intial steps:
 
    2.2. Descriptive statistics
 
 4. Exploratory Data Analysis
 
-   3.1 Bar plot for visualization of top 10 Grade Category distribution
-
-   3.2 Bar chart for distribution of gender in percentage
-
-   3.3 Barplot for Top 10 divisions
-
-   3.4 Distribution of Base salary
-
-   3.5 Distribution of 2020 Longetivity pay
-
-   3.6 Top 10 Departments based on average base salary
-
-   3.7 Top 5 divisions based on 2020 overtime pay distribution
-
-   3.8 Distribution of Base Salary based on Gender
-
-   3.9 Heatmap of Top 10 Divisions vs Gender
+  4.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
+  
+  4.2 Comprehensive Analysis of Compensation and Departmental Performance
+  
+  4.3 Distribution of Base Salary based on Gender.
+  
+  4.4 Heatmap of Top 10 Divisions vs Gender
    
-6. Data Cleaning
+5. Preprocessing with outliers:
 
-   4.1 Outlier Detection and Treatment
+   5.1 One-Hot Encoding :
+  
+   5.2 Label Encoding :
+  
+   5.3 Standarization :
 
-       4.1.1 Z-score Method
+6. Model Training and Evaluation with outliers:
 
-       4.1.2 Winsorizing Technique
+   6.1 Model Training:
 
-       4.1.3 Implementation
+   6.2 Model Evaluation
 
-       4.1.4 Winsorizing explanation of code
+7. Preprocessing after Removing Outliers
 
-8. Data Splitting and Preprocessing
+   7.1 One-Hot Encoding after removing outliers 
 
-9. Model Selection and Evaluation
+   7.2 Label Encoding after removing outliers
 
-   6.1 MSE
+   7.3 Standarization after removing outliers
 
-       6.1.1 MSE model performance
+8. Model training and Evaluation without outliers
 
-       6.1.2 MSE model accuracy evaluation
+   8.1 Model training without outliers
 
-   6.2 R^2 score
+   8.2 Model Evaluation without Outliers 
+      
+9. Conclusion
 
-       6.2.1 R^2 scores of all 3 models
-
-       6.2.2 R^2 score evualation
-
-   6.3 Precision, Recall and F1-score
-
-       6.3.1 Precision explanation
-
-       6.3.2 Recall explanation
-
-       6.3.3 F1-score explanation
-
-       6.3.4 F1, Precision and Recall score of Linear Regression
-
-       6.3.5 F1, Precision and Recall score of Random Forest
-
-       6.3.6 F1, Precision and Recall score of SVM
-
-    6.4 Confusion Matrix
-
-       6.4.1 Confusion Matrix of Random Forest and SVM
-
-7. Conclusion
-
-18. References
+10. References
    
    
       
@@ -182,17 +154,17 @@ Outlier Detection: We calculated the Z-scores for each data point.
 Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
 
 ##### 5. Preprocessing with outliers:
-##### 5.1.1 One-Hot Encoding :
+##### 5.1 One-Hot Encoding :
 We are doing One-Hot Encoding to convert categorical variables are converted into binary vectors.
 
 ![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/cb356266-e4f3-44ce-a9d2-afb6d7501222)
 
-##### 5.1.2 Label Encoding :
+##### 5.2 Label Encoding :
 Label encoding is a technique in machine learning for converting categorical data into numerical form. We used label encoder on gender column.
 
 ![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/11bb956d-7359-4b56-ab60-838a0d329ee1)
 
-##### 5.1.3 Standarization : 
+##### 5.3 Standarization : 
 First, we split data. Then we do standarization of data, so that all the values come on a common scale.
 
 x_train standarized data : 
