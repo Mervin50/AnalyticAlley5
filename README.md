@@ -158,7 +158,16 @@ Overall, the heatmap provides a clear and concise overview of the gender distrib
 # 4. Data Cleaning: 
 
 ##### 4.1 Outlier Detection and Treatment:
-Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score.
+Upon visual inspection of our box plot, we observed the presence of outliers within our dataset. To address this, we implemented a robust outlier detection and treatment approach using Z-score. After removing outliers, it came to our notice that approximately 90% of our data got lost. Hence Outliers are not always bad. We have done analysis with and without outliers.
+
+Shape of our datset with outliers :
+
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/5ef1c414-59bc-4766-a8d2-0a46e594e5b4)
+
+Shape of our dataset after removing outliers:
+
+![test2](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/dbbda02a-1a0f-487e-bdf6-607f8a06c2bd)
+
 
 ##### 4.1.1 Z-score Method:
 The Z-score method is a statistical technique used to identify outliers by measuring how many standard deviations an observation is from the mean. Observations with a Z-score greater than a specified threshold are flagged as outliers.
@@ -174,53 +183,75 @@ By applying the winsorizing technique, we effectively mitigated the impact of ou
 Removing outliers led to almost 90% loss of data, so it does not make sense to work on non outliers rows. Outliers are not always problematic. It is always data dependent. We have done Model training for data with outliers and data without outliers.
 
 
-##### 5. Data Splitting and Preprocessing:
+##### 5. Preprocessing with outliers:
+##### 5.1.1 One-Hot Encoding :
+We are doing One-Hot Encoding to convert categorical variables are converted into binary vectors.
 
-In this step, we split our dataset into features and the target variable. Our target variable, base salary (y), is separated from the features (X). We then utilize a ColumnTransformer for preprocessing, which allows us to apply various transformations selectively to different columns in our data. We've employed a OneHotEncoder within this transformer to encode categorical data. This preprocessing pipeline is specifically tailored to one-hot encode the categorical columns while leaving the non-categorical columns unchanged.
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/cb356266-e4f3-44ce-a9d2-afb6d7501222)
 
-# 6. Model Selection and Evaluation (MSE): 
+##### 5.1.2 Label Encoding :
+Label encoding is a technique in machine learning for converting categorical data into numerical form. We used label encoder on gender column.
 
-### 6.1 MSE:
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/11bb956d-7359-4b56-ab60-838a0d329ee1)
 
-##### 6.1.1 MSE model performance:
+##### 5.1.3 Standarization : 
+First, we split data. Then we do standarization of data, so that all the values come on a common scale.
 
-We've explored the performance of three different models: Support Vector Machine (SVM), Linear Regression, and Random Forest Regression. To evaluate these models, we've utilized the Mean Squared Error (MSE) metric. MSE quantifies the average squared difference between the actual and predicted values. A lower MSE indicates better model performance, signifying that the model's predictions are closer to the actual values.
+x_train standarized data : 
 
-![MSE](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/60c2d904-0db1-4828-b849-a22ffbf8256c)
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/a56060ad-195a-4a51-8ce6-97f98c583b6d)
 
 
-##### 6.1.2 MSE model accuracy evaluation:
+x_test standarized data :
 
-a) Linear Regression MSE: 94727842.27752575
+![test2](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/f841f08e-d3bb-4e67-b8c6-28930d1de81c)
 
-b) Random Forest Regressor MSE: 88475403.21661408
 
-c) Support Vector Regressor MSE: 699046712.7006655
+# 6. Model Training and Evaluation with outliers: 
 
-We can make the following observations about the accuracy of the models:
-The Random Forest Regressor has the lowest MSE among the three models, indicating that it provides the most accurate predictions among them. The Linear Regression model has a higher MSE than the Random Forest model but lower than the Support Vector Regressor, suggesting that it performs moderately well in terms of accuracy. The Support Vector Regressor has the highest MSE, indicating that it provides the least accurate predictions among the three models.
+##### 6.1 Model Training: 
+We used Logisitc Regression, Decision Tree, Random Forest and Support Vector Machine to train our model.
 
-### 6.2 R^2 score:
+##### 6.2 Model Evaluation: 
+Our MSE scores are : 
 
-##### 6.2.1 R^2 scores for all three models:
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/41eb18b4-1137-4aa2-88d7-534eeb02bcd2)
 
-![R2 score](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/5629722a-3d52-471f-8313-dbd947d5ed94)
 
-We have also found R2 scores of all three models: 
-The R^2 scores indicate how well the regression models fit the data:
-Linear Regression R^2 Score: 0.8643
-Random Forest Regression R^2 Score: 0.8732
-Support Vector Regression (SVR) R^2 Score: -0.0015
+# 7. Preprocessing after Removing Outliers
 
-##### 6.2.2  R^2 score evaluation:
+##### 7.1 One-Hot Encoding after removing outliers : 
 
-A score of 1 indicates a perfect fit.
-A score of 0 indicates that the model performs no better than simply taking the mean of the target variable.
-Negative scores indicate that the model performs worse than a horizontal line.
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/332d1281-c30d-4b1e-aa04-35c5f5231e70)
 
-Given these scores:
 
-Both Linear Regression and Random Forest Regression models have decent R^2 scores, indicating a good fit to the data.The Support Vector Regression (SVR) model has a negative R^2 score, which suggests that it performs worse than a horizontal line. This could mean that the SVR model is not suitable for this dataset or may require further tuning. In summary, the Linear Regression and Random Forest Regression models seem to provide reasonable fits to the data, while the SVR model may need further investigation or alternative approaches.
+##### 7.2 Label Encoding after removing outliers:
+
+![test2](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/c51a7c32-b23e-4e3e-bc1c-6b315a4e123e)
+
+##### 7.3 Standarization after removing outliers:
+We need to bring all the values of each column onto a common scale which will help us to train our model effiency.
+
+Our x_train after standarization :
+
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/884b1a3f-e750-4159-b985-3bedbab0fad2)
+
+
+Our x_test after standarization :
+
+![test2](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/acb275a8-52bf-4920-b9df-2e35c8b378de)
+
+# 8. Model training and Evaluation without outliers: 
+
+##### 8.1 Model training without outliers: 
+We used Logisitc Regression, Decision Tree, Random Forest and Support Vector Machine to train our model.
+
+##### 8.2 Model Evaluation without Outliers : 
+
+![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/3c0bd66a-1ea5-4bed-b402-d75bf9e741f7)
+
+
+
 
 ### 6.3 Precision, Recall and F1-score:
 
