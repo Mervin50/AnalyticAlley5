@@ -178,10 +178,8 @@ To handle the identified outliers, we applied the winsorizing technique. Winsori
 ##### 4.1.3 Implementation:
 Outlier Detection: We calculated the Z-scores for each data point.
 
-##### 4.1.4 Winsorizing: Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
-By applying the winsorizing technique, we effectively mitigated the impact of outliers on our dataset, ensuring robustness and reliability in our analysis.
-Removing outliers led to almost 90% loss of data, so it does not make sense to work on non outliers rows. Outliers are not always problematic. It is always data dependent. We have done Model training for data with outliers and data without outliers.
-
+##### 4.1.4 Winsorizing: 
+Data points below the 5th percentile were adjusted to the value at the 5th percentile, while those above the 95th percentile were adjusted to the value at the 95th percentile.
 
 ##### 5. Preprocessing with outliers:
 ##### 5.1.1 One-Hot Encoding :
