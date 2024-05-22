@@ -12,43 +12,43 @@
 
    2.2. Descriptive statistics
 
-4. Exploratory Data Analysis
+4. Exploratory Data Analysis:
 
-  4.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
+    4.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
   
-  4.2 Comprehensive Analysis of Compensation and Departmental Performance
+    4.2 Comprehensive Analysis of Compensation and Departmental Performance
   
-  4.3 Distribution of Base Salary based on Gender.
+    4.3 Distribution of Base Salary based on Gender.
   
-  4.4 Heatmap of Top 10 Divisions vs Gender
+    4.4 Heatmap of Top 10 Divisions vs Gender
    
 5. Preprocessing with outliers:
 
-   5.1 One-Hot Encoding :
+    5.1 One-Hot Encoding :
   
-   5.2 Label Encoding :
+    5.2 Label Encoding :
   
-   5.3 Standarization :
+    5.3 Standarization :
 
 6. Model Training and Evaluation with outliers:
 
-   6.1 Model Training:
+    6.1 Model Training:
 
-   6.2 Model Evaluation
+    6.2 Model Evaluation
 
 7. Preprocessing after Removing Outliers
 
-   7.1 One-Hot Encoding after removing outliers 
+    7.1 One-Hot Encoding after removing outliers 
 
-   7.2 Label Encoding after removing outliers
+    7.2 Label Encoding after removing outliers
 
-   7.3 Standarization after removing outliers
+    7.3 Standarization after removing outliers
 
 8. Model training and Evaluation without outliers
 
-   8.1 Model training without outliers
+    8.1 Model training without outliers
 
-   8.2 Model Evaluation without Outliers 
+    8.2 Model Evaluation without Outliers 
       
 9. Conclusion
 
