@@ -217,6 +217,7 @@ Our MSE scores are :
 
 ![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/41eb18b4-1137-4aa2-88d7-534eeb02bcd2)
 
+Our MSE scores are bad for all four models.
 
 # 7. Preprocessing after Removing Outliers
 
@@ -250,66 +251,11 @@ We used Logisitc Regression, Decision Tree, Random Forest and Support Vector Mac
 
 ![test1](https://github.com/Mervin50/ML_Project1_Employee_Compensation_and_Satisfaction_Insights/assets/167336864/3c0bd66a-1ea5-4bed-b402-d75bf9e741f7)
 
-
-
-
-### 6.3 Precision, Recall and F1-score:
-
-##### 6.3.1 Precision:
-
-Precision measures the accuracy of the positive predictions made by the model. It is the ratio of correctly predicted positive observations to the total predicted positives.
-
-Precision = TP / (TP + FP)
-
-TP (True Positives): The number of correctly predicted positive instances.
-FP (False Positives): The number of incorrectly predicted positive instances.
-Recall (also known as sensitivity or true positive rate):
-
-##### 6.3.2 Recall: 
-
-Recall measures the ability of the model to find all the positive instances. It is the ratio of correctly predicted positive observations to the all actual positives in the dataset.
-
-Recall = TP / (TP + FN)
-FN (False Negatives): The number of incorrectly predicted negative instances.
-
-
-##### 6.3.3 F1-score:
-
-F1-score is the harmonic mean of precision and recall. It provides a balance between precision and recall. F1-score reaches its best value at 1 and worst at 0.
-
-F1-score = 2 * (Precision * Recall) / (Precision + Recall)
-
-These metrics are commonly used in classification tasks to evaluate the performance of a model. 
-
-##### 6.3.4 F1, Precision and Recall score of Linear Regression: 
-
-![LR1](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/d3cf1991-aae6-48d5-a989-76df2a2ff446)
-
-##### 6.3.5 F1, Precision and Recall score of Random Forest:
-
-![F1 for RF](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1f6c3ce5-84bb-436f-9a4c-30c92c8d5197)
-
-##### 6.3.6 F1, Precision and Recall score of SVM:
-
-![F1 for SVM](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/dcbe0b97-8610-4ef4-b002-f29507c7185d)
-
-The Random Forest Regression model shows the best performance with higher precision, recall, and F1-score compared to Linear Regression and SVR. The Support Vector Regression model (SVR) has notably lower precision, recall, and F1-score, indicating poorer performance compared to the other models. This may suggest that the SVR model is not well-suited for the given task or requires further optimization.
-
-# 6.4 Confusion Matrix: 
-
-A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known. It allows visualization of the performance of an algorithm by showing the number of correct and incorrect predictions in each class.
-
-Here's how a confusion matrix is typically structured for a binary classification problem:
-
-
-![confusion matrix](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/8a952897-82ee-4722-81f6-0a8269c646fe)
-
-The confusion matrix is specifically designed for classification tasks where we predict discrete classes. For regression tasks, where we are predicting continuous values like salaries, the confusion matrix doesn't apply.
-
-
+Our MSE scores are bad for all four models.
 
 # 7. Conclusion:
-The classifiers, including Random Forest, Decision Tree, and Support Vector Machine, demonstrated varying levels of accuracy, with Random Forest exhibiting the highest predictive capability. The project not only achieved its primary objective of creating a salary prediction model but also laid the groundwork for future refinements. Further enhancements may involve optimizing hyperparameters, exploring alternative algorithms, and incorporating additional features to boost model accuracy. Overall, our data-driven approach and machine learning solutions have contributed to informed decision-making regarding salary structures, potential pay disparities, and budget planning within the organization.
+
+This project is for academic purpose. The MSE scores are bad, hence our model does not classify well. We tried training our model with outliers and without outliers. For both cases, there was not much difference.
 
 
 # 8. References:
