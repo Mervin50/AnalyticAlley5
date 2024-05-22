@@ -86,7 +86,7 @@
       
           
 # 1. Introduction:
-This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. Resources used include Python and associated packages Google Colab, matplotlib, Seaborn, scikit-learn, statsmodels, and SciPy. We have addressed the regression challenge to uncover the factors impacting salaries, employing Support Vector Machine, Random Forest, and Linear Regression.
+This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. 
 
 # 2. Description of the dataset:
 
