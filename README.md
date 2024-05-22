@@ -12,15 +12,15 @@
 
    2.2. Descriptive statistics
 
-4. Exploratory Data Analysis:
+3. Exploratory Data Analysis:
 
-    4.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
+    3.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
   
-    4.2 Comprehensive Analysis of Compensation and Departmental Performance
+    3.2 Comprehensive Analysis of Compensation and Departmental Performance
   
-    4.3 Distribution of Base Salary based on Gender.
+    3.3 Distribution of Base Salary based on Gender.
   
-    4.4 Heatmap of Top 10 Divisions vs Gender
+    3.4 Heatmap of Top 10 Divisions vs Gender
    
 5. Preprocessing with outliers:
 
