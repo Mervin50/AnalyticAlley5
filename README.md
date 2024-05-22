@@ -251,12 +251,12 @@ We used Logisitc Regression, Decision Tree, Random Forest and Support Vector Mac
 
 Our MSE scores are bad for all four models.
 
-# 7. Conclusion:
+# 9. Conclusion:
 
 This project is for academic purpose. The MSE scores are bad, hence our model does not classify well. We tried training our model with outliers and without outliers. For both cases, there was not much difference.
 
 
-# 8. References:
+# 10. References:
 General:
 
 [1] Anaconda Distribution https://www.anaconda.com/
