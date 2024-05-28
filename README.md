@@ -1,61 +1,6 @@
 ## Project Name : Salary Prediction and Analysis
 
 ![salary image](https://github.com/Mervin50/AnalyticAlley5/assets/167336864/1679ab76-cd56-449a-b2e1-4bce434b304b)
-
-# Table of contents
-
-1. Introduction
-   
-2. Description of the dataset
-
-   2.1. Intial steps:
-
-   2.2. Descriptive statistics
-
-3. Exploratory Data Analysis:
-
-    3.1 Exploratory Analysis of Organizational Structure and Workforce Diversity
-  
-    3.2 Comprehensive Analysis of Compensation and Departmental Performance
-  
-    3.3 Distribution of Base Salary based on Gender.
-  
-    3.4 Heatmap of Top 10 Divisions vs Gender
-   
-5. Preprocessing with outliers:
-
-    5.1 One-Hot Encoding :
-  
-    5.2 Label Encoding :
-  
-    5.3 Standarization :
-
-6. Model Training and Evaluation with outliers:
-
-    6.1 Model Training:
-
-    6.2 Model Evaluation
-
-7. Preprocessing after Removing Outliers
-
-    7.1 One-Hot Encoding after removing outliers 
-
-    7.2 Label Encoding after removing outliers
-
-    7.3 Standarization after removing outliers
-
-8. Model training and Evaluation without outliers
-
-    8.1 Model training without outliers
-
-    8.2 Model Evaluation without Outliers 
-      
-9. Conclusion
-
-10. References
-   
-   
-      
           
 # 1. Introduction:
 This README describes work done on the "Employee Compensation and Satisfaction Insights" Dataset. 
@@ -226,55 +171,5 @@ Our MSE scores are bad for all four models.
 # 9. Conclusion:
 
 This project is for academic purpose. The MSE scores are bad, hence our model does not classify well. We tried training our model with outliers and without outliers. For both cases, there was not much difference.
-
-
-# 10. References:
-General:
-
-[1] Anaconda Distribution https://www.anaconda.com/
-
-[2] Python Software Foundation https://www.python.org/
-
-[3] seaborn: statistical data visualization https://seaborn.pydata.org/index.html#
-
-[4] matplotlib: Python plotting library https://matplotlib.org/
-
-[5] "Employee Compensation and Satisfaction Insights" Dataset from data.world [https://github.com/mwaskom/seaborn-data/blob/master/tips.csv](https://data.world/montgomery-county-of-maryland/1fc1fc94-d685-4c4f-9525-6e6079165315/workspace/file?filename=comma-separated-values-file-1.csv)
-
-[6] scikit-learn: Machine Learning in Python https://scikit-learn.org/stable/index.html
-
-[7] statsmodels: Statistics in Python https://www.statsmodels.org/stable/index.html
-
-[8] scipy.stats : Statistics with SciPy https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
-
-Exploratory data analysis:
-
-[9] Exploratory Statistical Data Analysis with a Real data set using Pandas https://towardsdatascience.com/exploratory-statistical-data-analysis-with-a-real-data set-using-pandas-208007798b92
-
-[10] How to investigate a data set with Python https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e
-
-[11] Data analysis with Python https://medium.com/@onpillow/01-investigate-tmdb-movie-data set-python-data-analysis-project-part-1-data-wrangling-3d2b55ea7714
-
-[12] Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. Wes McKinney. ISBN-13: 978-1491957660 ISBN-10: 1491957662
-
-[13] Pandas In 10 Minutes || Wes McKinney https://www.youtube.com/watch?v=1MGCD8SQp3k
-
-[14] Good description of quartiles on Seaborn plots https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e
-
-Regression:
-
-[15] Ordinary Least Squares in statsmodels https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html
-
-[16] Generalized Linear Models in scikit-learn https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
-
-[17] How to run Linear regression in Python scikit-Learn https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
-
-[18] A beginner’s guide to Linear Regression in Python with Scikit-Learn https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f
-
-[19] Regression Analysis: How Do I Interpret R-squared and Assess the Goodness-of-Fit? https://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit
-
-[20] Python and R Tips To Learn Data Science: Pearson and Spearman Correlation in Python https://cmdlinetips.com/2019/08/how-to-compute-pearson-and-spearman-correlation-in-python/
-
-
 
 
